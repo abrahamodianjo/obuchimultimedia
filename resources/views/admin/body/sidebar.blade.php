@@ -29,6 +29,17 @@
                             </ul>
                          </li>
 
+                           <li>
+                            <a href="javascript: void(0);" class="has-arrow waves-effect">
+                                <i class="ri-home-4-line "></i>
+                                <span>Buchi page</span>
+                            </a>
+                            <ul class="sub-menu" aria-expanded="false">
+                                <li><a href="{{route('onyebuchi.odianjo')}}">View home slide</a></li>
+                               
+                            </ul>
+                         </li>
+
                          <li>
                             <a href="javascript: void(0);" class="has-arrow waves-effect">
                                 <i class=" ri-profile-line "></i>

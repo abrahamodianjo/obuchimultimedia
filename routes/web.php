@@ -174,7 +174,7 @@ Route::controller(ContactController::class)->group(function () {
 Route::controller(OnyebuchiodianjoController::class)->group(function () {
     Route::get('/onyebuchiodianjo', 'Onyebuchiodinajo')->name('onyebuchi.odianjo');
     Route::post('/store/onyebuchiodianjo', 'StoreOnyebuchiodianjo')->name('store.onyebuchi.odianjo');
-    Route::post('/update/onyebuchiodianjo/{id}', 'UpdateOnyebuchiodianjo')->name('update.onyebuchi.odianjo');
+    Route::post('/update/onyebuchiodianjo/', 'UpdateOnyebuchiodianjo')->name('update.onyebuchi.odianjo');
      Route::get('/edit/onyebuchiodianjo/{id}', 'EditOnyebuchiodianjo')->name('edit.onyebuchi.odianjo');
    
    
